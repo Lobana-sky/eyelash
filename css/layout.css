@@ -1,0 +1,21 @@
+*{
+    text-align: right;
+    direction: rtl;
+}
+.container{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 2em;
+    opacity: 0.90;
+    margin:2em;
+    padding:4em;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(239,241,244,1) 100%);
+}
+img{
+    border-radius: 2em;
+}
