@@ -20,8 +20,8 @@
     <!-- form + img -->
     <section class="container">
             <div class="row">
-              <div class="p-3 col-md-6 align-item">
-                <form>
+              <div class="p-3 col-md-6 d-flex align-self-center justify-content-center">
+                <form id="scroll-position">
                     <div class="form-group">
                       <label for="fname">الاسم الكامل</label>
                       <input type="text" class="form-control" id="fname">
@@ -43,10 +43,10 @@
                       <div class="form-group">
                         <input type="hidden" class="form-control" id="country">
                       </div>
-                    <button type="submit" class="btn btn-info">طلب الآن</button>
+                    <button  onclick="scrollWin()" type="submit" class="btn btn-info">طلب الآن</button>
                   </form>
               </div>
-              <div class="col-md-6 justify-content-center">
+              <div class="col-md-6 d-flex align-self-center">
                 <img src="images/cat1.jpeg" class="img-fluid" alt="">
               </div>
             </div>
@@ -55,10 +55,10 @@
     <!-- how to use section -->
     <section class="container">
         <div class="row">
-            <div class="col-md-6 justify-content-center" style=" position: relative">
+            <div class="col-md-6 d-flex align-self-center" style=" position: relative">
                 <img src="images/cat1.jpeg" class="img-fluid" alt="">
               </div>
-          <div class="p-3 col-md-6 justify-content-center">
+          <div class="p-3 col-md-6 d-flex align-self-center flex-column justify-content-center">
             <div class="alert alert-primary font-weight-bold" role="alert">
                 المكونات الطبيعية
               </div>
@@ -69,7 +69,7 @@
                 <li >مسح مستحضرات التجميل عن العين كلياً قبل النوم</li>
                 <li >مسح مستحضرات التجميل عن العين كلياً قبل النوم</li>
               </ol>
-              <button type="submit" class="btn btn-info">طلب الآن</button>
+              <button  onclick="scrollWin()" type="submit" class="btn btn-info">طلب الآن</button>
 
           </div>
          
@@ -78,7 +78,10 @@
 <!--how to use section-->
   
 <!--uesful section -->
-<section class="container">
+<section>
+    <h2 class="text-center p-3">تيمبور</h2>
+    
+    <div class="container">
   <div class="row">
   <div class="card col-lg-4 col-md-6 border-0" style="background: none;">
     <div class="face face1">
@@ -166,18 +169,20 @@
 
 
 </div>
-
+</div>
 </section>
 <!--uesful section -->
 
 <!--uesful section 2-->
-<section class="container">
-    <h2>Image Gallery</h2>
+<section>
+<h2 class="text-center p-3">تيمبور</h2>
+
+<div class="container">
     
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -185,7 +190,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -193,7 +198,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -201,7 +206,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -209,7 +214,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -217,7 +222,7 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="d-flex flex-column">
-            <img src="images/cat2.jpeg" alt="cat">
+            <img src="images/cat2.jpeg" alt="cat" class="rounded-pill">
             <div class="p-3">
               <p>لوريم ايبسوم دولار سيت أميت ,كوني كتيتور أدايبا يسكينج تيمبور</p>
             </div>
@@ -225,12 +230,14 @@
       </div>
       
     </div>
+    </div>
 </section>
 <!--uesful section 2-->
 
 <!--clients comments-->
 <section>
-    <div class="container-lg">
+    <h2 class="text-center p-3">تعليقات العملاء</h2>
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">			
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -406,47 +413,37 @@
             </div>
         </div>
     </div>
-
 </section>
-
 <!--client comments-->
   
     <!-- start footer Area -->
-    <footer class="footer-area section-gap p-3">
-        <div class="container-fluid">
+    <footer class="p-3">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
+                    <div>
                         <h4>About Me</h4>
-                        <p>
-                            We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
-                        </p>
+                        <p> لقد اختبرنا عددًا من إصلاحات التسجيل والأدوات النظيفة ونقدم قائمة أفضل 3 لدينا على موقعنا لراحتك.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
+                    <div>
                         <h4>النشرة الإخبارية</h4>
                         <p>ابق على اطلاع بأحدث اتجاهاتنا</p>
-                        <div class="" id="mc_embed_signup">
-                             <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+                        <div>
+                             <form>
                               <div class="input-group">
-                                <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-                                <div class="input-group-btn">
-                                  <button class="btn btn-default" type="submit">
-                                    <span class="lnr lnr-arrow-right"></span>
-                                  </button>    
-                                </div>
-                                    <div class="info"></div>  
+                                <button onclick="scrollWin()" type="submit" class="btn btn-info">طلب الآن</button>
                               </div>
                             </form> 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                    <div class="single-footer-widget">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div>
                         <h4>Follow Me</h4>
                         <p>Let us be social</p>
-                        <div class="footer-social d-flex align-items-center">
+                        <div class="d-flex align-items-center footer-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-dribbble"></i></a>
@@ -458,7 +455,13 @@
         </div>
     </footer>
     <!-- End footer Area -->
-
+    <script>
+        function scrollWin() {
+            var target=document.querySelector('#scroll-position')
+            var tragetPosition=target.getBoundingClientRect();
+          window.scrollTo(0, 0);
+        }
+        </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

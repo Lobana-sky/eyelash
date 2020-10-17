@@ -5,14 +5,14 @@
 .container{
     background: #f9f9ff;
     border-radius: 1em;
-    margin:2em;
+    margin:2em 0;
     padding:1em;
-}
-body{
-    background-color: red;
-    
 }
 
 img{
     border-radius: 1em;
+}
+
+h3{
+    color:black !important;
 }
