@@ -1,6 +1,18 @@
+:root{
+    --primary:#17a2b8;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(35,0,36,1) 0%, rgba(121,64,9,1) 35%, rgba(255,224,0,1) 100%);
+
+}
+
 *{
     text-align: right;
     direction: rtl;
+}
+html{
+    scroll-behavior: smooth;
 }
 .container{
     background: #f9f9ff;
@@ -13,6 +25,6 @@ img{
     border-radius: 1em;
 }
 
-h3{
-    color:black !important;
+h2,h3{
+    color: #17a2b8 !important;
 }

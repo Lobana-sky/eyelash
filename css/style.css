@@ -1,6 +1,3 @@
-.font-color{
-    color:#fbe1e0;
-}
 
 .container .card{
     position: relative;
@@ -69,10 +66,10 @@
     color: #fff;
 }
 
-
-
 #myCarousel > a.carousel-control-next,#myCarousel > a.carousel-control-prev{
-    color:red;
+    color: #17a2b8;
+    margin-top:-50px;
+    max-width: 30px;
 }
 
 .carousel {
@@ -103,7 +100,7 @@
     position: relative;    
     background: #9b9b9b;
     padding: 15px;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 0px;
 }
 .carousel .testimonial::before, .carousel .testimonial::after {
     content: "";
@@ -126,14 +123,13 @@
     border-left-color: #fff;
 }
 .carousel .carousel-item .row > div:first-child .testimonial {
-    margin: 0 20px 20px 0;
+    margin: 0 0px 20px 0;
 }
 .carousel .carousel-item .row > div:first-child .media {
     margin-left: 0;
 }
 .carousel .testimonial p {
     line-height: 21px;
-    margin: 0;
 }
 
 .carousel .overview {
@@ -144,7 +140,7 @@
 }
 .carousel .overview b {
     text-transform: uppercase;
-    color: #ff5555;
+    color: #17a2b8;
 }
 .carousel-control-prev, .carousel-control-next {
     width: 30px;
@@ -173,12 +169,12 @@
       box-sizing: border-box;
 }
 .carousel-indicators li {	
-    background: #e2e2e2;
-    border: 4px solid #fff;
+    background: #999;
+    /* border: 4px solid grey; */
 }
 .carousel-indicators li.active {
     color: #fff;
-    background: #ff5555;
+    background: #17a2b8;
     border: 5px double;    
 }
 .star-rating li {
