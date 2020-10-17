@@ -1,7 +1,11 @@
-
+.color-font-page{
+    font-family: 'El Messiri', sans-serif;
+    background: linear-gradient(67deg, rgba(231,235,234,1) 0%, rgba(218,219,221,1) 97%);
+}
 .container .card{
     position: relative;
     cursor: pointer;
+    background: none;
 }
 
 .container .card .face{
@@ -160,17 +164,16 @@
 }
 .carousel-indicators {
     bottom: 0px;
+    margin: -30px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
     width: 17px;
     height: 17px;
     border-radius: 0;
-    margin: 1px 5px;
-      box-sizing: border-box;
+    box-sizing: border-box;
 }
 .carousel-indicators li {	
     background: #999;
-    /* border: 4px solid grey; */
 }
 .carousel-indicators li.active {
     color: #fff;
