@@ -6,15 +6,15 @@
 *{
     text-align: right;
     direction: rtl;
+    line-height: 2em !important;
 }
 html{
     scroll-behavior: smooth;
 }
 .container{
-    background: #f9f9ff;
     border-radius: 1em;
-    margin:2em 0;
-    padding:1em;
+    margin:0.5em 0;
+    padding:0.5em 1em;
 }
 
 img{
