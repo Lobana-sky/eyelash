@@ -1,3 +1,11 @@
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+  }
+
 .color-font-page{
     font-family: 'El Messiri', sans-serif;
     background: linear-gradient(67deg, rgba(231,235,234,1) 0%, rgba(218,219,221,1) 97%);
@@ -201,7 +209,10 @@ li.list-inline-item{
 
 .btn{
     max-width: 200px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
 
 .footer-social a i{
     color:#17a2b8;
