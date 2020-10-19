@@ -9,7 +9,7 @@
 
 .color-font-page{
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient(67deg, rgba(231,235,234,1) 0%, rgba(218,219,221,1) 97%);
+    background: linear-gradient(67deg, rgb(242, 245, 244) 0%, rgb(245, 248, 250) 97%);
 }
 .container .card{
     position: relative;
