@@ -5,6 +5,7 @@
     margin-right: auto;
     width: 50%;
     height: 150px;
+    object-fit: contain;
   }
 
 .color-font-page{
