@@ -1,6 +1,6 @@
 .font-weight{
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 30px;
 }
 .form-group{
     max-width: 250px;
@@ -8,8 +8,6 @@
 .order-color{
     background: rgb(255,240,237);
     background: linear-gradient(165deg, rgba(255,240,237,1) 0%, rgba(255,240,237,1) 97%);
-    /* background: rgb(227,228,223);
-background: linear-gradient(0deg, rgba(227,228,223,1) 0%, rgba(226,227,231,1) 83%); */
 }
 .center-img {
     display: block;
@@ -47,74 +45,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 7
     margin: auto;
 }
 
-.container .card{
-    position: relative;
-    cursor: pointer;
-    background: none;
-}
-
-.container .card .face{
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
-}
-
-.container .card .face.face1{
-    position: relative;
-    background: beige;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-}
-
-.container .card:hover .face.face1{
-    transform: translateY(0);
-}
-
-.container .card .face.face1 .content{
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content{
-    opacity: 1;
-}
-
-.container .card .face.face1 .content img{
-    max-width: 200px;
-}
-
-.container .card .face.face1 .content h3{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.container .card .face.face2{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2{
-    transform: translateY(0);
-}
-
-.container .card .face.face2 .content a:hover{
-    background: beige;
-    color: #fff;
-}
-
 #myCarousel > a.carousel-control-next,#myCarousel > a.carousel-control-prev{
     color: #e60073;
     margin-top:-50px;
@@ -131,66 +61,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 7
     min-height: 120px;
     font-size: 13px;
 }
-.carousel .media {
-    position: relative;
-    padding: 0 0 0 20px;
-    margin-left: 20px;
-}
-.carousel .media img {
-    width: 75px;
-    height: 75px;
-    display: block;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    border: 2px solid #fff;
-}
-.carousel .testimonial {
-    color: #fff;
-    position: relative;    
-    background: #9b9b9b;
-    padding: 15px;
-    margin: 0 0 20px 0px;
-}
-.carousel .testimonial::before, .carousel .testimonial::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-}
-.carousel .testimonial::before {
-    width: 20px;
-    height: 20px;
-    background: #9b9b9b;
-    box-shadow: inset 12px 0 13px rgba(0,0,0,0.5);
-}
-.carousel .testimonial::after {
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #fff;
-    border-left-color: #fff;
-}
-.carousel .carousel-item .row > div:first-child .testimonial {
-    margin: 0 0px 20px 0;
-}
-.carousel .carousel-item .row > div:first-child .media {
-    margin-left: 0;
-}
-.carousel .testimonial p {
-    line-height: 21px;
-}
-
-.carousel .overview {
-    padding: 3px 0 0 15px;
-}
-.carousel .overview .details {
-    padding: 5px 0 8px;
-}
-.carousel .overview b {
-    text-transform: uppercase;
-    color: #e60073 !important;
-}
 
 .item-itself{
     display: flex;
@@ -200,8 +70,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 7
     padding-right: 10em;
     padding-left: 10em;
     }
-
-
 
     /* media query */
     @media only screen and (max-width: 600px) {
