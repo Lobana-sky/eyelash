@@ -28,19 +28,21 @@
                     املإي المعلومات المطلوبة واضغطي طلب الآن
                     ليصلك منتجنا في أسرع وقت
                     </h6>
-                <form id="scroll-position">
-                    <div class="form-group pt-3">
-                        <label for="fname">الاسم الكامل</label>
-                        <input type="text" class="form-control" id="fname" placeholder="أدخل الاسم الكامل">
+                <form>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><label for="fname">الاسم الكامل</label></div>
+                            <div class="col-lg-8"><input type="text" class="form-control" id="fname" placeholder="أدخل الاسم الكامل"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4"><label for="tel">رقم الهاتف</label></div>
+                            <div class="col-lg-8"><input type="text" class="form-control" id="fname" placeholder="أدخل الاسم الكامل"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4"><label for="exampleInputEmail1">البريد الإلكتروني</label></div>
+                            <div class="col-lg-8"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="أدخل عنوان البريد الالكتروني"></div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="tel">رقم الهاتف</label>
-                        <input type="text" class="form-control" id="tel" placeholder="أدخل رقم الهاتف">
-                        </div>
-                        <div class="form-group">
-                        <label for="exampleInputEmail1">البريد الإلكتروني</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="أدخل عنوان البريد الالكتروني">
-                        </div>
                         <div class="form-group">
                         <input type="hidden" class="form-control" id="code">
                         </div>
@@ -50,8 +52,10 @@
                         <div class="form-group">
                         <input type="hidden" class="form-control" id="country">
                         </div>
-                    <button type="submit" class="btn btn-info">طلب الآن</button>
+                    <div>
+                    <button type="submit" class="btn btn-info d-block">طلب الآن</button>
                     </form>
+                    </div>
                 </div>
                 <div class="col-md-7 d-flex align-self-center">
                 <img src="images/eyehome.webp" class="img-fluid img-rounded" alt="eyelash" width="100%">
@@ -177,8 +181,6 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
 
-
-
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="text-center mx-auto item-itself">
@@ -257,7 +259,7 @@
 
     </div>
     <!-- End Testimonials Section -->                                                                 
-        <div class="d-flex align-items-center flex-row justify-content-center align-self-center order-color px-3">
+        <div class="text-promotion px-3">
             <p class="font-weight-bold pl-5 mb-0">احصلي على رموش وحواجب قوية ومتناسقة</p>
             <button onclick="scrollWin()" type="submit" class="btn btn-info">طلب الآن</button>
         </div>
