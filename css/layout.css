@@ -13,10 +13,6 @@ html{
     /* background-image: url('images/maskara.jpeg'); */
 }
 
-img{
-    border-radius: 1em;
-}
-
 h2,h3{
     color: #e60073 !important;
 }
