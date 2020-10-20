@@ -6,15 +6,17 @@
     max-width: 250px;
 }
 .antiquewhite-color{
-    background: antiquewhite;
+    background: rgb(255,240,237);
+    background: linear-gradient(165deg, rgba(255,240,237,1) 0%, rgba(255,240,237,1) 97%);
 }
 .center-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 150px;
-    object-fit: contain;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    object-fit: cover;
   }
 
 .avatar-img{
@@ -29,7 +31,9 @@
 
 .color-font-page{
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient(67deg, rgb(242, 245, 244) 0%, rgb(245, 248, 250) 97%);
+    /* background: linear-gradient(67deg, rgb(242, 245, 244) 0%, rgb(245, 248, 250) 97%); */
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 71%);
 }
 
 .comment-text{
@@ -110,7 +114,7 @@
 }
 
 #myCarousel > a.carousel-control-next,#myCarousel > a.carousel-control-prev{
-    color: #17a2b8;
+    color: #e60073;
     margin-top:-50px;
     max-width: 30px;
 }
@@ -183,7 +187,7 @@
 }
 .carousel .overview b {
     text-transform: uppercase;
-    color: #17a2b8 !important;
+    color: #e60073 !important;
 }
 
 .item-itself{
@@ -208,10 +212,13 @@
             font-size: 15px;
             font-weight: 800;
         }
+        .glow{
+            font-size: 18px !important;
+        }
       }
 
       .icon-color{
-        color: #17a2b8;
+        color: #e60073;
       }
 
 
@@ -230,7 +237,7 @@
 }
 .carousel-indicators li.active {
     color: #fff;
-    background: #17a2b8;
+    background: #e60073;
     border: 5px double;    
 }
 .star-rating li {
@@ -260,7 +267,7 @@ li.list-inline-item{
 }
 
 .footer-social a i{
-    color:#17a2b8;
+    color:#e60073;
     margin-left:1em;
 }
 
@@ -269,3 +276,25 @@ li.list-inline-item{
     box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75);
 
 }
+
+
+
+.glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
