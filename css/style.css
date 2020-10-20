@@ -7,7 +7,6 @@
 }
 .antiquewhite-color{
     background: antiquewhite;
-    /* border-radius: 2em; */
 }
 .center-img {
     display: block;
@@ -18,10 +17,28 @@
     object-fit: contain;
   }
 
+.avatar-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4.25em;
+    height: 4.25em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .color-font-page{
     font-family: 'Cairo', sans-serif;
     background: linear-gradient(67deg, rgb(242, 245, 244) 0%, rgb(245, 248, 250) 97%);
 }
+
+.comment-text{
+    text-align: center;
+    color: #343a40!important;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .container .card{
     position: relative;
     cursor: pointer;
@@ -164,13 +181,43 @@
 }
 .carousel .overview b {
     text-transform: uppercase;
-    color: #17a2b8;
+    color: #17a2b8 !important;
 }
-.carousel-control-prev, .carousel-control-next {
+
+.item-itself{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 10em;
+    padding-left: 10em;
+    }
+
+
+
+    /* media query */
+    @media only screen and (max-width: 600px) {
+        .item-itself {
+            padding-right: 4em;
+            padding-left: 4em;
+        }
+
+        .comment-text{
+            font-size: 15px;
+            font-weight: 800;
+        }
+      }
+
+
+      .icon-color{
+        color: #17a2b8;
+      }
+/* .carousel-control-prev, .carousel-control-next {
     width: 30px;
     height: 30px;
     text-shadow: none;
-    top: 4px;
+    top: -50px;
+    color:black !important;
 }
 .carousel-control-prev i, .carousel-control-next i {
     font-size: 16px;
@@ -181,7 +228,18 @@
 }
 .carousel-control-next {
     left: auto;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
 .carousel-indicators {
     bottom: 0px;
     margin: -30px;
