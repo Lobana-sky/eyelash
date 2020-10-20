@@ -21,8 +21,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 4.25em;
-    height: 4.25em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -33,10 +33,12 @@
 }
 
 .comment-text{
-    text-align: center;
+    text-align: center !important;
     color: #343a40!important;
     font-size: 20px;
     font-weight: 800;
+    max-width: 600px;
+    margin: auto;
 }
 
 .container .card{
@@ -208,36 +210,9 @@
         }
       }
 
-
       .icon-color{
         color: #17a2b8;
       }
-/* .carousel-control-prev, .carousel-control-next {
-    width: 30px;
-    height: 30px;
-    text-shadow: none;
-    top: -50px;
-    color:black !important;
-}
-.carousel-control-prev i, .carousel-control-next i {
-    font-size: 16px;
-}
-.carousel-control-prev {
-    left: auto;
-    right: 40px;
-}
-.carousel-control-next {
-    left: auto;
-} */
-
-
-
-
-
-
-
-
-
 
 
 .carousel-indicators {
@@ -281,6 +256,7 @@ li.list-inline-item{
     max-width: 200px;
     margin-top: 1em;
     margin-bottom: 1em;
+    font-weight: bold !important;
 }
 
 .footer-social a i{
