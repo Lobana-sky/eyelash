@@ -1,3 +1,7 @@
+.font-weight{
+    font-weight: 1000;
+    font-size: 40px;
+}
 .form-group{
     max-width: 250px;
 }
