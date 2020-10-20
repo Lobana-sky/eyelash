@@ -1,4 +1,10 @@
-
+.form-group{
+    max-width: 250px;
+}
+.antiquewhite-color{
+    background: antiquewhite;
+    /* border-radius: 2em; */
+}
 .center-img {
     display: block;
     margin-left: auto;
