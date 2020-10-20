@@ -5,7 +5,7 @@
 .form-group{
     max-width: 250px;
 }
-.antiquewhite-color{
+.order-color{
     background: rgb(255,240,237);
     background: linear-gradient(165deg, rgba(255,240,237,1) 0%, rgba(255,240,237,1) 97%);
     /* background: rgb(227,228,223);
@@ -276,8 +276,13 @@ li.list-inline-item{
 }
 
 .section-color{
-    background: #f9f9ff;
-    box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75);
+    /* background: #f9f9ff;
+    box-shadow: 0px 0px 85px -29px rgba(0,0,0,0.75); */
+
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(239,241,244,1) 100%);
+/* background: rgb(227,228,223);
+background: linear-gradient(rgba(227,228,223,1) 0%, rgb(188, 128, 243) 83%); */
 
 }
 
