@@ -73,13 +73,14 @@
     align-self: center;
     padding-right: 10em;
     padding-left: 10em;
-    }
+}
 
 .carousel-indicators {
     bottom: 0px;
     margin-bottom: -30px;
     padding: 0 !important;
 }
+
 .carousel-indicators li, .carousel-indicators li.active {
     width: 17px;
     height: 17px;
