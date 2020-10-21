@@ -52,7 +52,7 @@
 }
 
 .carousel-control-next, .carousel-control-prev{
-    color: #e60073;
+    color: var(--primary-color);
     margin-top:30px;
     width: 20px;
     height: 20px;
@@ -92,7 +92,7 @@
 }
 .carousel-indicators li.active {
     color: #fff;
-    background: #e60073;
+    background: var(--primary-color);
     border: 5px double;    
 }
 .star-rating li {
@@ -110,7 +110,7 @@ ul.list-inline{
     color:white !important;
 }
 .carousel-control-prev:visited,.carousel-control-next:visited{
-    color: #e60073 !important;
+    color: var(--primary-color) !important;
 }
 
 div.media-body{
@@ -129,10 +129,10 @@ li.list-inline-item{
     min-width: 100px !important;
 }
 .pink-color{
-    color:#e62d89;
+    color:var(--primary-color);
 }
 .footer-social a i{
-    color:#e60073;
+    color:var(--primary-color);
     margin-left:1em;
 }
 
@@ -158,5 +158,5 @@ li.list-inline-item{
       }
 
       .icon-color{
-        color: #e60073;
+        color: var(--primary-color);
       }

@@ -1,11 +1,17 @@
+:root{
+    --primary-color:#e60073;
+}
+
 *{
     text-align: right;
     direction: rtl;
     line-height: 2em !important;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .container{
     border-radius: 1em;
     margin:0.5em 0;
@@ -13,10 +19,10 @@ html{
 }
 
 h2,h3{
-    color: #e60073 !important;
+    color:var(--primary-color) !important;
 }
 
 .btn-info{
-    background-color: #e60073 !important;
-    border-color: #e60073 !important;
+    background-color: var(--primary-color) !important;
+    border-color:var(--primary-color) !important;
 }
