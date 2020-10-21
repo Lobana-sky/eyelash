@@ -37,6 +37,7 @@
 }
 
 .color-font-page{
+    color:var(--secondary-color) !important;
     font-family: 'Cairo', sans-serif;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 71%);
@@ -44,7 +45,7 @@
 
 .comment-text{
     text-align: center !important;
-    color: #343a40!important;
+    color: var(--secondary-color)!important;
     font-size: 20px;
     font-weight: 800;
     max-width: 600px;
@@ -86,12 +87,13 @@
     height: 17px;
     border-radius: 0;
     box-sizing: border-box;
+    color: var(--secondary-color) !important;
+
 }
 .carousel-indicators li {	
     background: #999;
 }
 .carousel-indicators li.active {
-    color: #fff;
     background: var(--primary-color);
     border: 5px double;    
 }
