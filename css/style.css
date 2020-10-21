@@ -40,7 +40,6 @@
 
 .color-font-page{
     color: var(--secondary-color)!important;
-
     font-family: 'Cairo', sans-serif;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,245,246,1) 71%);
@@ -54,7 +53,9 @@
     max-width: 600px;
     margin: auto;
 }
-
+.fa-chevron-right:before,.fa-chevron-left:before {
+    color:var(--primary-color);
+}
 .carousel-control-next, .carousel-control-prev{
     color: var(--primary-color);
     margin-top:30px;
@@ -108,13 +109,10 @@ ul.list-inline{
     padding-right: 0%;
 }
 
-.carousel-control-prev:visited,.carousel-control-next:visited{
-    color: var(--primary-color) !important;
-}
-
 div.media-body{
     padding-right: 1em;
 }
+
 li.list-inline-item{
     margin-right: 0px !important;
 }
