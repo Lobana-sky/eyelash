@@ -125,12 +125,18 @@ li.list-inline-item{
 }
 
 .btn{
-    max-width: 200px;
+    width: 250px;
     margin-top: 1em;
     margin-bottom: 1em;
     font-weight: bold !important;
     font-size: 20px !important;
     min-width: 100px !important;
+    /* background-color: var(--primary-color) !important; */
+    /* border-color:var(--primary-color) !important; */
+    color: #fff !important;
+    border-radius: 30px !important;
+    background: rgb(245,6,111);
+background: radial-gradient(circle, rgba(245,6,111,1) 0%, rgba(244,239,244,1) 100%) !important;
 }
 .pink-color{
     color:var(--primary-color);

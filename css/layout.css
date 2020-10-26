@@ -23,7 +23,3 @@ h2,h3{
     color:var(--primary-color) !important;
 }
 
-.btn-info{
-    background-color: var(--primary-color) !important;
-    border-color:var(--primary-color) !important;
-}
